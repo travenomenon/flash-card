@@ -11,3 +11,10 @@ $(document).ready(function() {
     $("#term2").toggle();
   });
 });
+
+$(document).ready(function() {
+  $("#flip3").click(function() {
+    $("#def3").toggle();
+    $("#term3").toggle();
+  });
+});
