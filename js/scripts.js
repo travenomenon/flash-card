@@ -1,20 +1,33 @@
 $(document).ready(function() {
-  $("#flip1").click(function() {
+  $("#term1").click(function() {
+    $(this).toggle();
     $("#def1").toggle();
+  });
+
+  $("#def1").click(function() {
+    $(this).toggle();
     $("#term1").toggle();
   });
-});
 
-$(document).ready(function() {
-  $("#flip2").click(function() {
+  $("#term2").click(function() {
+    $(this).toggle();
     $("#def2").toggle();
+  });
+
+  $("#def2").click(function() {
+    $(this).toggle();
     $("#term2").toggle();
   });
-});
 
-$(document).ready(function() {
-  $("#flip3").click(function() {
+  $("#term3").click(function() {
+    $(this).toggle();
     $("#def3").toggle();
+  });
+
+  $("#def3").click(function() {
+    $(this).toggle();
     $("#term3").toggle();
   });
+
+
 });

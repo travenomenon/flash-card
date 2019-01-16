@@ -15,3 +15,8 @@ display: none;
 display: none;
 
 }
+
+#term1, #def1, #term2, #def2, #term3, #def3 {
+  cursor: pointer;
+  
+}
